@@ -64,13 +64,26 @@ npm run dev
 
 ## Rutas disponibles
 
+### POST de autententificación de usuario: http://localhost:5000/auth/login
+### Genera un token si en el Body se ingresan los datos del usuario de prueba:
+```json
+{
+  "email":"admin@admin.com",
+  "password":"password123"
+}
+```
+### Ese token se usa para todas las rutas relacionadas con los productos
+
 ### GET todos los productos: http://localhost:5000/api/products
+### Pegar el token en la pestaña AUTH > BEARER
 ### Muestra la lista de productos y sus características (Nombre, precio, stock, disponible)
 
 ### GET producto por id: http://localhost:5000/api/products/id
+### Pegar el token en la pestaña AUTH > BEARER
 ### Muestra el producto con ese id.
 
 ### POST: http://localhost:5000/api/products
+### Pegar el token en la pestaña AUTH > BEARER
 ### Ejemplo del Body:
 ```json
 {
@@ -83,10 +96,11 @@ npm run dev
 ### Carga a la lista el producto y sus características.
 
 ### DELETE: http://localhost:5000/api/products/id
+### Pegar el token en la pestaña AUTH > BEARER
 ### Borra el producto con ese id y sus características de la lista.
 
 ---
-### Mejoras futuras: realizar validaciones para el ingreso de productos a la base de datos, autentificación de usuarios, protección de las rutas de autentificación
+### Mejoras futuras: realizar validaciones para el ingreso de productos a la base de datos y la autentificación de usuarios, mejorar la protección de las rutas de autentificación, realizar deploy
 ---
 
 ## (*) En la raiz del proyecto debes agregar una carpeta **.env** con las sig. variables de entorno:
