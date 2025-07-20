@@ -1,12 +1,12 @@
 # proyecto-api-nodejs-express
 
-# Curso de Back End con Node.JS de **TalentoTech**
+# Curso de Back End con Node.JS de **TalentoTech**, de Buenos Aires aprende, Gobierno de la Cuidad de Buenos Aires
 ## Proyecto final integrador
 ## Servidor API REST con capas Express
 
 
 ### Este proyecto es una API Rest básica conectada a una base de datos de Firebase para cargar productos y algunas características de ellos con Node.js.
-### Para que funcione usé la información que me brindó el curso, ya que no tenía ningún conocimiento previo en el tema, y requiere muchas mejoras futuras. 
+### Para que funcione, usé la información que me brindó el curso, ya que no tenía ningún conocimiento previo en el tema; requiere muchas mejoras futuras.
 
 ---
 
@@ -106,7 +106,7 @@ npm run dev
 ## (*) En la raiz del proyecto debes agregar una carpeta **.env** con las sig. variables de entorno:
 ### APIKEY = #Tus claves Firebase
 ### AUTHDOMAIN = #Tus claves Firebase
-### PROJECTID = "api-proyecto-final-nodejs"
+### PROJECTID = #Tus claves Firebase
 ### STORAGEBUCKET = #Tus claves Firebase
 ### MESSAGINGSENDERID = #Tus claves Firebase
 ### APPID = #Tus claves Firebase
